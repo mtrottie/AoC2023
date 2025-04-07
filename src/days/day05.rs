@@ -16,7 +16,7 @@ pub fn solve() -> SolutionPair {
 }
 
 fn solution_one(file_path: String) -> usize {
-    let input = fs::read_to_string(file_path).unwrap();
+    let _ = fs::read_to_string(file_path).unwrap();
     0
 }
 
